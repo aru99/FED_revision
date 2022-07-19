@@ -12,58 +12,114 @@
   <!-- all the elements which are visible on the web page would be inside the body element -->
   <body>
     <!--=================== section 1 ================-->
-    <h1>📘 The Code Magazine</h1>
+    <header>
+      <h1>📘 The Code Magazine</h1>
 
-    <!--==================== section 2 ==================-->
-    <h2>The Basic Language of the Web: HTML</h2>
-    <img src="laura-jones.jpg" alt="author image" width="50" height="50" />
-    <p>Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
-    <img src="post-img.jpg" alt="post image" width="500" height="200" />
-    <p>
-      All modern websites and web applications are built using three
-      <em>fundamental</em>
-      technologies: HTML, CSS and JavaScript. These are the languages of the
-      web.
-    </p>
-    <p>
-      In this post, let's focus on HTML. We will learn what HTML is all about,
-      and why you too should learn it.
-    </p>
-    <!--==================== section 3 ==================-->
-    <h3>What is HTML?</h3>
-    <p>
-      HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-      <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup language
-      that web developers use to structure and describe the content of a webpage
-      (not a programming language).
-    </p>
-    <p>
-      HTML consists of elements that describe different types of content:
-      paragraphs, links, headings, images, video, etc. Web browsers understand
-      HTML and render HTML code as websites.
-    </p>
-    <p>In HTML, each element is made up of 3 parts:</p>
-    <ol>
-      <li>the opening tag</li>
-      <li>the closing tag</li>
-      <li>the actual element</li>
-    </ol>
+      <!--==================== section 2 ==================-->
+      <nav>
+        <a href="./pages/blog.html" target="_blank">Blog </a>
+        <a href="./pages/challenges.html" target="_blank">Challenges </a>
+        <a href="./pages/css_grid.html" target="_blank">CSS Grid </a>
+        <a href="./pages/flexbox.html" target="_blank">Flexbox </a>
+      </nav>
+    </header>
 
-    <p>
-      There are countless reasons for learning the fundamental language of the
-      web. Here are 5 of them:
-    </p>
-    <ul>
-      <li>To be able to use the fundamental web dev language</li>
-      <li>
-        To handcraft beautiful websites instead of relying on tools like
-        wordpress or wix
-      </li>
-      <li>To build web applications</li>
-      <li>To impress friends</li>
-      <li>To have fun 😃</li>
-    </ul>
+    <article>
+      <header>
+        <h2>The Basic Language of the Web: HTML</h2>
+        <img
+          src="img/laura-jones.jpg"
+          alt="author image"
+          width="50"
+          height="50"
+        />
+        <p>Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+        <img src="img/post-img.jpg" alt="post image" width="500" height="200" />
+      </header>
 
-    <p>Hopefully you learned something new here. See you next time!</p>
+      <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em>
+        technologies: HTML, CSS and JavaScript. These are the languages of the
+        web.
+      </p>
+      <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+      </p>
+      <!--==================== section 3 ==================-->
+      <h3>What is HTML?</h3>
+      <p>
+        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language).
+      </p>
+      <p>
+        HTML consists of elements that describe different types of content:
+        paragraphs, links, headings, images, video, etc. Web browsers understand
+        HTML and render HTML code as websites.
+      </p>
+      <p>In HTML, each element is made up of 3 parts:</p>
+      <ol>
+        <li>the opening tag</li>
+        <li>the closing tag</li>
+        <li>the actual element</li>
+      </ol>
+      <p>
+        You can learn more at
+        <a href="https://developer.mozilla.org/en-US/" target="_blank"
+          >MDN Web Docs</a
+        >
+      </p>
+
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+      <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          To handcraft beautiful websites instead of relying on tools like
+          wordpress or wix
+        </li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun 😃</li>
+      </ul>
+
+      <p>Hopefully you learned something new here. See you next time!</p>
+    </article>
+    <aside>
+      <strong>Related posts</strong>
+      <ul>
+        <li>
+          <img
+            src="img/related-1.jpg"
+            alt="How to learn Web development"
+            width="100"
+            height="100"
+          /><a href="#"> How to Learn Web Devvelopment</a>
+        </li>
+        <li>
+          <img
+            src="img/related-2.jpg"
+            alt="THe Unknown power of Css"
+            width="100"
+            height="100"
+          /><a href="#"> The unknown power of Css</a>
+        </li>
+        <li>
+          <img
+            src="img/related-3.jpg"
+            alt="Why javascript is awesome"
+            width="100"
+            height="100"
+          /><a href="#"> Why javascript is Awesome</a>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>Copyright &copy; 2022 MDA</footer>
   </body>
 </html>
