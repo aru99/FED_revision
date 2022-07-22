@@ -6,6 +6,7 @@
   <!-- head elements is for the things which are not visible in the browser window -->
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
     <title>The Basic language of the web : HTML</title>
   </head>
 
@@ -33,7 +34,9 @@
           width="50"
           height="50"
         />
-        <p>Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027
+        </p>
         <img src="img/post-img.jpg" alt="post image" width="500" height="200" />
       </header>
 
@@ -91,7 +94,7 @@
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
     <aside>
-      <strong>Related posts</strong>
+      <h4><strong>Related posts</strong></h4>
       <ul>
         <li>
           <img
@@ -100,6 +103,7 @@
             width="100"
             height="100"
           /><a href="#"> How to Learn Web Devvelopment</a>
+          <p class="related-author">By Dillain Murphy</p>
         </li>
         <li>
           <img
@@ -108,6 +112,7 @@
             width="100"
             height="100"
           /><a href="#"> The unknown power of Css</a>
+          <p class="related-author">By Robert Frank</p>
         </li>
         <li>
           <img
@@ -116,12 +121,13 @@
             width="100"
             height="100"
           /><a href="#"> Why javascript is Awesome</a>
+          <p class="related-author">By Vinita Stuart</p>
         </li>
       </ul>
     </aside>
 
     <a href="pages/challenge2.html">Challenge 2 : component</a>
 
-    <footer>Copyright &copy; 2022 MDA</footer>
+    <footer><p id="copyright">Copyright &copy; 2022 MDA</p></footer>
   </body>
 </html>
