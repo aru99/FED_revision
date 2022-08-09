@@ -1,0 +1,44 @@
+body {
+  border: 5px solid #444;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.main_heading {
+  text-align: center;
+  background-color: rgb(234, 233, 232);
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #444;
+}
+
+a:link {
+  color: rgb(34, 34, 34);
+}
+
+a:hover {
+  color: rgb(23, 21, 21);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(80, 5, 5);
+}
+li {
+  list-style-type: square;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.536);
+}
