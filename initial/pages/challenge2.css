@@ -1,22 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  border: 5px solid #444;
   font-family: sans-serif;
   font-weight: 500;
+}
+
+p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.container {
+  border: 5px solid #444;
+  width: 1025px;
+  margin: 50px auto;
 }
 .main_heading {
   text-align: center;
   background-color: rgb(234, 233, 232);
   text-transform: uppercase;
+  padding: 20px 50px;
+}
+
+.product_image {
+  margin-bottom: 10px;
 }
 
 .price {
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .shipping {
   text-transform: uppercase;
   font-weight: bold;
   color: #444;
+  margin-bottom: 20px;
 }
 
 a:link {
@@ -33,12 +58,19 @@ a:active {
 }
 li {
   list-style-type: square;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 button {
   background-color: black;
   color: white;
+  width: 100%;
+  border-top: 5px solid black;
+  font-size: larger;
+  text-transform: uppercase;
 }
 button:hover {
-  background-color: rgba(0, 0, 0, 0.536);
+  background-color: white;
+  color: black;
 }
