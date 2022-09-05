@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -44,11 +45,21 @@ h2 {
 
 .product_image {
   margin-bottom: 10px;
+  float: left;
+  margin-right: 40px;
+}
+
+.product_info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
 .price {
   font-size: 20px;
   margin-bottom: 5px;
+  float: left;
 }
 
 .shipping {
@@ -56,6 +67,8 @@ h2 {
   font-weight: bold;
   color: #444;
   margin-bottom: 20px;
+  float: right;
+  margin-top: 2px;
 }
 
 a:link {
@@ -100,6 +113,15 @@ a:active {
   background-color: #885214;
 }
 
+.product_details {
+  width: 243px;
+  float: left;
+}
+
+.product_details h2 {
+  margin-bottom: 20px;
+}
+
 li {
   list-style-type: square;
   margin-left: 30px;
@@ -117,4 +139,9 @@ button {
 button:hover {
   background-color: white;
   color: black;
+}
+
+.product_description {
+  clear: both;
+  margin-bottom: 10px;
 }
