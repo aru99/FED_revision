@@ -47,9 +47,24 @@
         /* horizontally aligning the flex items */
         justify-content: flex-start;
         /* manually inducing gap in the items */
-        gap: 30px;
+        gap: 10px;
       }
 
+      /* -shrink -grow -basis */
+      .el {
+        /*
+        DEFAULTS :
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+
+        /* if we want to change the width of a flex item then we use flex-basis, here do note that since we have flex-shrink : 1, thus flex box would shrink the flex items for them to fit inside the flex container if the flex-basis exceeds the width of the flex contianer */
+        /* flex-basis: 200px; */
+        /* flex-shrink: 0; */
+        /* flex-grow: 1; */
+        /* felx : flex-grow flex-shrink flex-basis */
+        flex: 1;
+      }
       /* we used align-items:center propertry within the flex container, now if we want to change the alignment of specific flex items then we can do the same using align-self property */
       .el--1 {
         align-self: flex-start;
@@ -60,7 +75,7 @@
         order: 1;
       }
       .el--6 {
-        order: -1;s
+        order: -1;
       }
     </style>
   </head>
