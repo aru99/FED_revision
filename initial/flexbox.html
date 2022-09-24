@@ -41,10 +41,26 @@
 
         /* FLEXBOX */
         display: flex;
+        /* === properties of flex items === */
         /* vertically aligning the flex items */
         align-items: center;
         /* horizontally aligning the flex items */
-        justify-content: center;
+        justify-content: flex-start;
+        /* manually inducing gap in the items */
+        gap: 30px;
+      }
+
+      /* we used align-items:center propertry within the flex container, now if we want to change the alignment of specific flex items then we can do the same using align-self property */
+      .el--1 {
+        align-self: flex-start;
+        /* changing the order of the flex item */
+      }
+      .el--5 {
+        align-self: stretch;
+        order: 1;
+      }
+      .el--6 {
+        order: -1;s
       }
     </style>
   </head>
