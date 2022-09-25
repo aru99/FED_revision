@@ -274,3 +274,19 @@ nav {
   font-weight: normal;
   font-size: 14px;
 }
+
+.article_aside {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
+}
