@@ -69,11 +69,17 @@ h2 {
 .btn--big {
   font-size: 18px;
   padding: 16px 32px;
+  border-radius: 100px;
 }
 
 .btn--small {
   font-size: 14px;
   padding: 8px 12px;
+  border-radius: 100px;
+}
+
+img {
+  border-radius: 12px;
 }
 /* ------------------------ */
 /* COMPONENT STYLES */
@@ -131,6 +137,7 @@ img {
   background-color: rgb(8, 127, 91);
   color: #ffff;
   padding: 24px;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -153,6 +160,12 @@ img {
 /* CHAIRS */
 .chair {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .chair-box {
   padding: 24px;
