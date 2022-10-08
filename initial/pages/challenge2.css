@@ -151,9 +151,15 @@ button:hover {
   margin-bottom: 10px;
 }
 
-.row {
+/* .row {
   display: flex;
-  /* justify-content: space-between; */
+  /* justify-content: space-between; 
   margin-bottom: 10px;
   gap: 20px;
+} */
+
+.grid_layout {
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+  column-gap: 40px;
 }
