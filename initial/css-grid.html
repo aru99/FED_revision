@@ -49,6 +49,8 @@
         /*  */
         column-gap: 30px;
         row-gap: 60px;
+        /* temporary, this is overiding display: grid; */
+        display: none;
       }
 
       .el--8 {
@@ -64,7 +66,6 @@
       }
 
       .container--2 {
-        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
@@ -75,6 +76,23 @@
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        gap: 50px;
+        /* column-gap: 30px;
+        row-gap: 60px; */
+        /* aligning tracks inside the container : distributing empty space */
+        justify-content: center;
+        align-content: center;
+        /* aligning items inside the tracks */
+        align-items: center;
+        justify-items: center;
+      }
+
+      .el--3 {
+        align-self: end;
+        justify-self: end;
       }
     </style>
   </head>
