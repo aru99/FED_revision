@@ -37,8 +37,32 @@ body {
 
 header {
   height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(30, 26, 26, 0.564),
+      rgba(30, 26, 26, 0.564)
+    ),
+    url(hero.jpg);
+  background-size: cover;
+
+  color: #fff;
 }
+
+.header_container {
+  width: 1200px;
+  position: absolute;
+  /* in relation to the parent size */
+  left: 50%;
+  top: 50%;
+  /* in relation to the parent size */
+  transform: translate(-50%, -50%);
+}
+.header_container_inner {
+  width: 50%;
+}
+
 nav {
+  padding-top: 32px;
   font-size: 20px;
   font-weight: 700;
   display: flex;
@@ -48,6 +72,7 @@ nav {
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
+  line-height: 1.05;
 }
 
 p {
