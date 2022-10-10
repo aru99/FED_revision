@@ -1,0 +1,83 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+MAIN COLOR : #087f5b;
+GREY COLOR : #343a40;
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+/* would be inherited by all the elements */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+
+  line-height: 1;
+  display: flex;
+
+  justify-content: center;
+}
+
+.page_numbers {
+  margin: 200px auto;
+}
+
+.numbers {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-items: center;
+}
+
+.num_text {
+  font-weight: 500;
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+
+  width: 30px;
+  height: 30px;
+  /* transform: translate(-20%, 0); */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #087f5b;
+  background-color: #fff;
+  /* padding: ; */
+}
+
+.btn_icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+}
+
+.btn_icon:hover {
+  color: #fff;
+}
