@@ -31,16 +31,26 @@ Default : 1
 */
 /* ---------------------------- */
 
-/* ---- Global Reset ---- */
+/* ==== Global Reset === */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/*==== Global Rest end ====*/
 
+/* === Global styles === */
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
 }
+
+/* === Global styles end === */
