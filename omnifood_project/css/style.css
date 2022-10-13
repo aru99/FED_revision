@@ -54,3 +54,19 @@ body {
 }
 
 /* === Global styles end === */
+
+/* === Hero Section === */
+.section_hero {
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero_img {
+  width: 100%;
+}
+/* === Hero Section end === */
