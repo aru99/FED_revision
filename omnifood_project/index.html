@@ -13,6 +13,15 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -145,6 +154,43 @@
               class="step_img"
             />
           </div>
+        </div>
+      </section>
+      <!-- ===== Meals section ===== -->
+      <section class="section_meals">
+        <div class="container">
+          <span class="subheading">Meals</span>
+          <h2 class="heading_secondary">
+            Omnifood AI chooses from 5,000+ recipes
+          </h2>
+        </div>
+
+        <div class="container grid grid__3_col">
+          <div class="meal">
+            <img
+              src="img/meals/meal-1.jpg"
+              class="meal_img"
+              alt="meals image"
+            />
+            <span class="tag">Vegetarian</span>
+            <p class="meal_title">Japanese Gyozas</p>
+            <ul class="meal_attributes">
+              <li class="meal_attribute">
+                <ion-icon name="flame-outline"></ion-icon
+                ><span> 650 Calories </span>
+              </li>
+              <li class="meal_attribute">
+                <ion-icon name="restaurant-outline"></ion-icon
+                ><span> NutriScore &reg; 74 </span>
+              </li>
+              <li class="meal_attribute">
+                <ion-icon name="star-outline"></ion-icon
+                ><span>4.9 Rating (537)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="meal">Meals</div>
+          <div class="list">List of Diets</div>
         </div>
       </section>
     </main>
