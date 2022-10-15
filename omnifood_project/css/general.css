@@ -141,8 +141,32 @@ body {
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
 .margin_right_sm {
   margin-right: 1.6rem !important;
+}
+
+.margin_bottom_md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center_text {
+  text-align: center;
 }
 
 strong {
