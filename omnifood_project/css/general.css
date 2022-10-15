@@ -138,10 +138,15 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 1rem;
 
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 .margin_right_sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
 
 /* +++++++++++++++++++++++++++ */
