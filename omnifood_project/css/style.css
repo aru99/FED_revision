@@ -348,3 +348,37 @@
 /* +++++++++++++++++++++++++++ */
 /* === How it works Section end === */
 /* +++++++++++++++++++++++++++ */
+
+/* ///////////////////////////// */
+/* === Testimonial Section === */
+/* ///////////////////////////// */
+
+.section_testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.testimonial_img {
+  width: 64px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial_text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial_name {
+  font-size: 1.6rem;
+  color: #777;
+}
+/* +++++++++++++++++++++++++++ */
+/* === Testimonial Section end === */
+/* +++++++++++++++++++++++++++ */ ;
