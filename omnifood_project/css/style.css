@@ -506,3 +506,36 @@
 /* +++++++++++++++++++++++++++ */
 /* === Feature Section end === */
 /* +++++++++++++++++++++++++++ */
+
+/* ///////////////////////////// */
+/* === CTA Section === */
+/* ///////////////////////////// */
+.section_cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.1rem;
+  background-image: linear-gradient(#eb984e, #e67e22);
+  /* temporary */
+  height: 50rem;
+  overflow: hidden;
+}
+
+.cta_img_box {
+  background-image: linear-gradient(
+      rgba(235, 151, 78, 0.277),
+      rgba(230, 125, 34, 0.31)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* +++++++++++++++++++++++++++ */
+/* === Feature Section end === */
+/* +++++++++++++++++++++++++++ */
