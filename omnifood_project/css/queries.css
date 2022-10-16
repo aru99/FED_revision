@@ -1,6 +1,9 @@
 /* rem and em do not depend on html font size on media queries 
 1rem = 1em = 16px*/
 
+/* ///////////////////////////// */
+/* === Below 1344px smaller desktop === */
+/* ///////////////////////////// */
 @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
@@ -11,7 +14,42 @@
   }
 
   .gallery {
-    
     grid-template-columns: repeat(2, 1fr);
-   
+  }
+}
+
+/* ///////////////////////////// */
+/* === landscape tablets === */
+/* ///////////////////////////// */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading_secondary {
+    font-size: 3.6rem;
+  }
+  .heading_tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .main_nav_list {
+    gap: 3.2rem;
+  }
+
+  .testimonial_container {
+    padding: 9.6rem 3.2rem;
+  }
 }
