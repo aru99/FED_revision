@@ -45,6 +45,11 @@ paragraph default 1.6
   margin: 0;
   box-sizing: border-box;
 }
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(rgba(230, 125, 34, 0.5));
+}
 /* +++++++++++++++++++++++++++ */
 /*==== Global Rest end ====*/
 /* +++++++++++++++++++++++++++ */
@@ -137,6 +142,7 @@ body {
   letter-spacing: 0.075rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -148,6 +154,10 @@ body {
 
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
+  /* for btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .link:link,
@@ -163,6 +173,18 @@ body {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+.btn_form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem !important;
+}
+
+.btn_form:hover {
+  background-color: #fff;
+  color: #45260a;
 }
 
 .list {
