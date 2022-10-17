@@ -165,3 +165,59 @@
     font-size: 3rem;
   }
 }
+
+/* ///////////////////////////// */
+/* === smaller tablets tablets === */
+/* ///////////////////////////// */
+
+@media (max-width: 44em) {
+  .grid__3_col,
+  .grid__4_col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .heading_secondary {
+    margin-bottom: 4.8rem;
+  }
+  .pricing_plan {
+    width: 100%;
+  }
+  .grid_footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .nav_col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .logo_col,
+  .address_col {
+    grid-column: span 3;
+  }
+}
+
+/* ///////////////////////////// */
+/* === smaller phones === */
+/* ///////////////////////////// */
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid__2_col,
+  .grid__3_col,
+  .grid__4_col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section_hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+}
